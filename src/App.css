@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+body, html {
+    width: 100%;
+    min-height: 100%;
+    background: #1e1e1e;
+    color: #fff;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 500px;
+    background: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper > header {
+    width: 100%;
+    padding: 20px 0;
+    background: #ff4d4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo_form {
+    width: 100%;
+    padding: 0;
+}
+
+.todo_form > input {
+    width: 100%;
+    max-width: 470px;
+    height: 30px;
+    border: none;
+}
+
+.todo_form > button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.todo_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.todo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2e2e2e;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+.todo > h2 {
+    padding: 20px 10px;
+    width: 100%;
+    max-width: 360px;
+    height: 70px;
+}
+
+.todo > button {
+    width: 70px;
+    height: 70px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.red {
+    background: #ff4d4d
+}
+
+.green {
+    background: #4dff4d;
+}
